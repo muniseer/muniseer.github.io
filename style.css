@@ -189,3 +189,23 @@ footer .menu .link a {
 .cover img {
   width: 100%;
 }
+
+@media (max-width: 1440px) {
+
+  .carousel-item {
+    height: 30rem;
+  }
+  .carousel-item > img {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .carousel-item {
+    height: 25rem;
+  }
+  .carousel-item > img {
+    height: 25rem;
+  }
+}
